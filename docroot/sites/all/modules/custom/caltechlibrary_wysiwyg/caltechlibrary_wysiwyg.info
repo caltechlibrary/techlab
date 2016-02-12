@@ -1,0 +1,10 @@
+name = Caltech Library WYSIWYG
+description = WYSIWYG configuration for Caltech Library sites.
+core = 7.x
+package = Caltech Library
+version = 7.x-1.0-alpha1
+dependencies[] = ckeditor
+dependencies[] = ckeditor_image2
+dependencies[] = imce
+features[ckeditor_profile][] = Advanced
+features[features_api][] = api:2
